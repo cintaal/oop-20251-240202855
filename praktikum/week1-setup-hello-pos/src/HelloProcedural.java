@@ -1,4 +1,3 @@
-package praktikum;
 public class HelloProcedural {
    
    public static void main(String[] args) {

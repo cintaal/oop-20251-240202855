@@ -1,4 +1,3 @@
-package praktikum;
 import java.util.function.BiConsumer; 
 public class HelloFunctional { 
         public static void main(String[] args) { 

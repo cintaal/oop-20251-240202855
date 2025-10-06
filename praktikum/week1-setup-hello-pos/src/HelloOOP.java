@@ -1,4 +1,3 @@
-package praktikum;
 class Mahasiswa {
    String nama;  
    int nim;   
