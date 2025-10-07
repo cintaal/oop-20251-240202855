@@ -17,32 +17,93 @@ Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
 
 ---
 
-## Dasar Teori
-(Tuliskan ringkasan teori singkat (3–5 poin) yang mendasari praktikum.  
-Contoh:  
-1. Class adalah blueprint dari objek.  
-2. Object adalah instansiasi dari class.  
-3. Enkapsulasi digunakan untuk menyembunyikan data.)
+## Dasar Teori 
+1. Pemrograman Prosedural adalah paradigma yang berfokus pada urutan langkah atau prosedur dalam menyelesaikan suatu masalah. Program disusun berdasarkan fungsi atau prosedur yang dijalankan secara berurutan.
+2. Pemrograman Berorientasi Objek (OOP) berfokus pada objek yang memiliki atribut (data) dan method (perilaku). Konsep utama OOP meliputi class, object, encapsulation, inheritance, dan polymorphism.
+3. Class merupakan blueprint atau cetak biru dari objek yang mendefinisikan atribut dan method.
+4. Functional Programming di Java memanfaatkan konsep lambda expression dan functional interface seperti Consumer, BiConsumer, atau Function untuk menulis kode yang lebih ringkas dan deklaratif.
+5. Paradigma fungsional memungkinkan pemrosesan data dengan cara yang lebih ekspresif dan mengurangi boilerplate code dibandingkan pendekatan prosedural atau OOP.
 
 ---
 
 ## Langkah Praktikum
-(Tuliskan Langkah-langkah dalam prakrikum, contoh:
-1. Langkah-langkah yang dilakukan (setup, coding, run).  
-2. File/kode yang dibuat.  
-3. Commit message yang digunakan.)
+ 1. Membuat folder praktikum di dalam proyek Java.
 
+ 2. Membuat tiga file Java:
+    - HelloProcedural.java (paradigma prosedural)
+    - HelloOOP.java (paradigma berorientasi objek)
+    - HelloFunctional.java (paradigma fungsional)
+   
+ 3. Menulis kode sesuai paradigma masing-masing.
+ 
+ 4. Melakukan kompilasi dan menjalankan program menggunakan Visual Studio        Code.
+
+ 5. Mengecek hasil output di terminal untuk memastikan program berjalan          dengan benar.
+    
 ---
 
 ## Kode Program
-(Tuliskan kode utama yang dibuat, contoh:  
 
 ```java
-// Contoh
-Produk p1 = new Produk("BNH-001", "Benih Padi", 25000, 100);
-System.out.println(p1.getNama());
+// HelloProcedural.java
+public class HelloProcedural {
+    public static void main(String[] args) {
+
+        String nim = "240202855";
+        String nama = "Cinta Alghumaidatul Affaf";
+
+          // Prosedural dengan method
+            PANGGIL("Cinta Alghumaidatul Affaf", "2402022855");
+         // Bisa dipanggil secara berulang
+
+ // Method 
+    System.out.println("Hello World, I am " + nama + ", " + nim);
+    }
+}
+
+
 ```
-)
+---java
+// HelloOOP.java
+package praktikum;
+
+class Mahasiswa {
+    String nama;
+    int nim;
+
+    Mahasiswa(String m, int n) {
+        this.nama = m;
+        this.nim = n;
+    }
+
+    void sapa() {
+        System.out.println("Hallo World, I am " + nama + ", " + nim);
+    }
+}
+
+public class HelloOOP {
+    public static void main(String[] args) {
+        Mahasiswa mhs = new Mahasiswa("Cinta Alghumaidatul Affaf", 240202855);
+        mhs.sapa();
+    }
+}
+
+```
+```java
+// HelloFunctional.java
+package praktikum;
+import java.util.function.BiConsumer;
+
+public class HelloFunctional {
+    public static void main(String[] args) {
+        BiConsumer<String, Integer> sapa = (nama, nim) -> 
+            System.out.println("Hallo World, I am " + nama + ", " + nim);
+
+        sapa.accept("Cinta Alghumaidatul Affaf", 240202855);
+    }
+}
+
+```
 ---
 
 ## Hasil Eksekusi
