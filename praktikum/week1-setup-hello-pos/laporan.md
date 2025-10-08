@@ -18,12 +18,11 @@ Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
 ---
 
 ## Dasar Teori
-(Tuliskan ringkasan teori singkat (3–5 poin) yang mendasari praktikum.  
-Contoh:  
-1. Class adalah blueprint dari objek.  
-2. Object adalah instansiasi dari class.  
-3. Enkapsulasi digunakan untuk menyembunyikan data.)
-
+1. Pemrograman Prosedural adalah paradigma yang berfokus pada urutan langkah atau prosedur dalam menyelesaikan suatu masalah. Program disusun berdasarkan fungsi atau prosedur yang dijalankan secara berurutan.
+2. Pemrograman Berorientasi Objek (OOP) berfokus pada objek yang memiliki atribut (data) dan method (perilaku). Konsep utama OOP meliputi class, object, encapsulation, inheritance, dan polymorphism.  
+3. Class merupakan blueprint atau cetak biru dari objek yang mendefinisikan atribut dan method.
+4. Functional Programming di Java memanfaatkan konsep lambda expression dan functional interface seperti Consumer, BiConsumer, atau Function untuk menulis kode yang lebih ringkas dan deklaratif.
+5. Paradigma fungsional memungkinkan pemrosesan data dengan cara yang lebih ekspresif dan mengurangi boilerplate code dibandingkan pendekatan prosedural atau OOP.
 ---
 
 ## Langkah Praktikum
