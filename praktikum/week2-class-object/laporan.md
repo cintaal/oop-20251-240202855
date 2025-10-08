@@ -1,4 +1,4 @@
-# Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
+# Laporan Praktikum Minggu 2
 Topik: Class dan Object
 ## Identitas
 - Nama  : Cinta Alghumaidatul Affaf
@@ -177,11 +177,26 @@ Dengan implementasi class Produk dan penggunaan object di MainProduk, program me
 ---
 
 ## Quiz
-(1. [Tuliskan kembali pertanyaan 1 dari panduan]  
-   **Jawaban:** …  
+1. Mengapa atribut sebaiknya dideklarasikan sebagai private dalam class?
 
-2. [Tuliskan kembali pertanyaan 2 dari panduan]  
-   **Jawaban:** …  
+   Atribut sebaiknya dibuat private supaya data di dalam objek tidak bisa diakses atau diubah langsung dari luar class. Ini untuk menjaga keamanan dan konsistensi data. Dengan cara ini, hanya method tertentu yang boleh mengubah nilai atribut sehingga lebih terkontrol. Selain itu, jika suatu saat logika internal class berubah, kode di luar class tidak perlu ikut diubah.
 
-3. [Tuliskan kembali pertanyaan 3 dari panduan]  
-   **Jawaban:** …  )
+2. Apa fungsi getter dan setter dalam enkapsulasi?
+
+   Getter dan setter berfungsi sebagai “gerbang resmi” untuk mengakses dan mengubah nilai atribut private.
+
+  - Getter digunakan untuk mengambil nilai atribut (misalnya getStok() untuk mengetahui stok saat ini).
+
+  - Setter digunakan untuk mengubah nilai atribut dengan aturan tertentu (misalnya setHarga() tapi hanya jika harga valid).
+   Dengan getter dan setter, perubahan atribut bisa difilter atau divalidasi, bukan sembarangan diubah dari luar. 
+
+3. Bagaimana cara class Produk mendukung pengembangan aplikasi POS yang lebih kompleks?
+
+Class Produk menjadi dasar dari representasi data barang dalam sistem POS. Dengan struktur ini:
+  - Setiap produk punya atribut jelas (kode, nama, harga, stok).
+
+  - Method seperti tambahStok dan kurangiStok bisa diperluas dengan logika bisnis lain (misalnya diskon, pajak, atau pencatatan transaksi).
+
+  - Class ini bisa dengan mudah dikombinasikan dengan class lain (seperti Transaksi, Kasir, Pelanggan) untuk membentuk sistem POS yang lebih besar.
+    
+Dengan kata lain, Produk berfungsi sebagai pondasi yang membuat aplikasi lebih mudah dikembangkan dan dikelola.
