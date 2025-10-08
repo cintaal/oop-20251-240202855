@@ -61,9 +61,9 @@ public class HelloProcedural {
     }
 }
 
-
 ```
----java
+
+```java
 // HelloOOP.java
 package praktikum;
 
@@ -106,28 +106,41 @@ public class HelloFunctional {
 ```
 ---
 
-## Hasil Eksekusi
-(Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots/hasil.png)
-)
+## Hasil Eksekusi 
+![HelloFunctional]<img width="1747" height="775" alt="HelloFunctional" src="https://github.com/user-attachments/assets/4c3981ca-2d59-4938-9969-513072c3af4e" />
+
+![HelloOOP]<img width="1653" height="795" alt="HelloOOP" src="https://github.com/user-attachments/assets/8d639347-b0bc-46fe-a477-94533d8949ce" />
+
+![HelloProcedural]<img width="1776" height="784" alt="HelloProcedurall" src="https://github.com/user-attachments/assets/f1bfe48d-be34-4a60-bfce-360abbc8423e" />
+
 ---
 
 ## Analisis
-(
-- Jelaskan bagaimana kode berjalan.  
-- Apa perbedaan pendekatan minggu ini dibanding minggu sebelumnya.  
-- Kendala yang dihadapi dan cara mengatasinya.  
-)
+- Jelaskan bagaimana kode berjalan.
+  1. Pada pendekatan prosedural, program dijalankan dari atas ke bawah  dengan urutan logika yang sederhana, cocok untuk program kecil.
+
+  2. Pada pendekatan OOP, program dibangun berdasarkan class dan object yang membuat struktur lebih rapi dan mudah dikembangkan untuk program besar.
+
+   3. Pada pendekatan fungsional, Java memanfaatkan lambda expression yang membuat kode lebih singkat, efisien, dan mudah dibaca.
+      
+- Apa perbedaan pendekatan minggu ini dibanding minggu sebelumnya.
+ Ini adalah tugas minggu pertama jadi belum bisa membandingkan.
+  
+- Kendala yang dihadapi dan cara mengatasinya.
+  sempat terjadi error pada deklarasi package dan nama file yang tidak sesuai.
+  Solusi: memastikan nama file sama dengan nama class utama dan folder sesuai dengan struktur package praktikum.
 ---
 
 ## Kesimpulan
-(Tuliskan kesimpulan dari praktikum minggu ini.  
-Contoh: *Dengan menggunakan class dan object, program menjadi lebih terstruktur dan mudah dikembangkan.*)
+
+Dengan mempelajari ketiga paradigma — prosedural, OOP, dan fungsional — mahasiswa dapat memahami berbagai cara menyusun program di Java.
+Pendekatan OOP lebih terstruktur dan mudah dikembangkan, sedangkan paradigma fungsional lebih efisien untuk kode sederhana.
+Pemahaman terhadap ketiga paradigma ini penting agar dapat memilih pendekatan yang paling sesuai dengan kebutuhan proyek.
 
 ---
 
 ## Quiz
-(1. [Tuliskan kembali pertanyaan 1 dari panduan]  
+1. [Tuliskan kembali pertanyaan 1 dari panduan]  
    **Jawaban:** …  
 
 2. [Tuliskan kembali pertanyaan 2 dari panduan]  
