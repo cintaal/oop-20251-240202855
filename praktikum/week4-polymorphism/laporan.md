@@ -238,8 +238,7 @@ public class MainPolymorphism {
 
 ## Hasil Eksekusi
 Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots/hasil.png)
-
+![alt text](<Screenshot 2025-11-03 224228.png>)
 
 ---
 
