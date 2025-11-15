@@ -1,5 +1,5 @@
-package main.java.com.upb.agripos.model.kontrak;
+package com.upb.agripos.model.kontrak;
 
-public class Receiptable {
-    
+public interface Receiptable {
+    String cetakStruk();
 }
